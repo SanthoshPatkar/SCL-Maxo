@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel='stylesheet' type="text/css" href="style.css">
+
+    <title>Logic Gate Simulator</title>
+</head>
+<style>
+    div {
+        background-image: url('img/back.jpg');
+    }
+</style>
+
+
+<body>
+    <script src="javascript.js"></script>
+    <h1 class="header1">Logic Gate Simulator </h1>
+    <div class="border">
+
+
+        <img class="image effect" id="bulb" src="off.jpg">
+
+        <div class="border center">
+            <h3 class="header2">AND Gate: </h3>
+
+            <div class="div1">
+                <form action="javascript:void(0);">
+                    In a: <br>
+                    <input type="text" id="inaa" value="">
+
+                    <br>
+
+                    In b: <br>
+                    <input type="text" id="inab" value="">
+
+                    <br> <br>
+
+                    <button onclick="and()">Output</button>
+                </form>
+            </div>
+
+
+            <p class="text" id="anda"></p>
+            <p class="text" id="andb"></p>
+            <p class="text" id="andout"></p>
+        </div>
+
+
+        <div class="border center">
+            <div class="div1">
+                <h3 class="header2">NAND Gate: </h3>
+
+                <form action="javascript:void(0);">
+                    In a: <br>
+                    <input type="text" id="innaa" value="">
+
+                    <br>
+
+                    In b: <br>
+                    <input type="text" id="innab" value="">
+
+                    <br> <br>
+
+                    <button onclick="nand()">Output</button>
+                </form>
+            </div>
+
+            <p class="text" id="nanda"></p>
+            <p class="text" id="nandb"></p>
+            <p class="text" id="nandout"></p>
+        </div>
+
+        <div class="border center">
+            <h3 class="header2">OR Gate : </h3>
+
+            <div class="div1">
+                <form action="javascript:void(0);">
+                    In a: <br>
+                    <input type="text" id="inora" value="">
+
+                    <br> <br>
+
+                    In b: <br>
+                    <input type="text" id="inorb" value="">
+
+                    <br> <br>
+
+                    <button onclick="or()">Output</button>
+                </form>
+            </div>
+
+            <p class="text" id="ora"></p>
+            <p class="text" id="orb"></p>
+            <p class="text" id="orout"></p>
+        </div>
+
+        <div class="border center">
+            <h3 class="header2">NOR Gate: </h3>
+
+            <div class="div1">
+                <form action="javascript:void(0);">
+                    In a: <br>
+                    <input type="text" id="innoa" value="">
+
+                    <br>
+
+                    In b: <br>
+                    <input type="text" id="innob" value="">
+
+                    <br> <br>
+
+                    <button onclick="nor()">Output</button>
+                </form>
+
+                <p class="text" id="nora"></p>
+                <p class="text" id="norb"></p>
+                <p class="text" id="norout"></p>
+            </div>
+        </div>
+
+        <div class="border center">
+            <h3 class="header2">EX-OR Gate: </h3>
+
+            <div class="div1">
+                <form action="javascript:void(0);">
+                    In a: <br>
+                    <input type="text" id="inexoa" value="">
+
+                    <br>
+
+                    In b: <br>
+                    <input type="text" id="inexob" value="">
+
+                    <br> <br>
+
+                    <button onclick="exor()">Output</button>
+                </form>
+
+                <p class="text" id="exora"></p>
+                <p class="text" id="exorb"></p>
+                <p class="text" id="exorout"></p>
+            </div>
+        </div>
+
+        <div class="border center">
+            <h3 class="header2">EX-NOR Gate: </h3>
+
+            <div class="div1">
+                <form action="javascript:void(0);">
+                    In a: <br>
+                    <input type="text" id="inexnoa" value="">
+
+                    <br>
+
+                    In b: <br>
+                    <input type="text" id="inexnob" value="">
+
+                    <br> <br>
+
+                    <button onclick="exnor()">Output</button>
+                </form>
+
+                <p class="text" id="exnora"></p>
+                <p class="text" id="exnorb"></p>
+                <p class="text" id="exnorout"></p>
+            </div>
+        </div>
+
+        <div class="border center">
+            <h3 class="header2">INVERTER: </h3>
+
+            <div class="div1">
+                <form action="javascript:void(0);">
+                    In a: <br>
+                    <input type="text" id="ininva" value="">
+
+                    <br> <br>
+
+                    <button onclick="inverter()">Output</button>
+                </form>
+
+                <p class="text" id="inva"></p>
+                <p class="text" id="invertout"></p>
+            </div>
+        </div>
+
+
+</body>
+
+</html>

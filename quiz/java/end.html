@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Python Quiz</title>
+    
+   
+    <link rel="stylesheet" href="dist/css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div>
+           <i class="fas fa-award award_icon"></i>
+           <h1 class="userpoints">☆ ☆ ☆</h1>
+           <h3 class="userpoints">Your Points <span class="points"></span> /10</h3>
+
+           <h5 class="usertime"> Time taken <span class="time_taken"></span> sec</h5>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/d56261bbb9.js"></script>
+    <script id="quiz">  if (points>9) {
+    console.log(" ☆ ☆ ☆ ☆ ☆")
+  }
+  else if (points>7) {
+    console.log( " ☆ ☆ ☆ ☆")
+  }
+  else if (points>5) {
+    console.log(" ☆ ☆ ☆")
+  }
+  else if (points>3) {
+    console.log(" ☆ ☆")
+  }
+  else {
+        console.log(" ☆")
+  }
+</script>
+
+        <script src="dist/js/userInfo.js"></script>
+</body>
+</html>
