@@ -139,9 +139,12 @@ function next() {
   }
   console.log(points);
 
+
+
   question_count++;
   show(question_count);
 }
+
 
 function show(count) {
   let question = document.getElementById("questions");
